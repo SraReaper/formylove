@@ -1,0 +1,78 @@
+.love {
+  margin-top: 150px;
+  display: grid;
+  gap: 40px;
+  justify-content: center;
+  
+}
+
+.envelope-container {
+
+}
+
+.envelope {
+  position: relative;
+  width: 424px;  
+  height: 280px;
+  top: 90px;
+  right: 34px;
+  background-color: #f9c5c8;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.envelope-red {
+position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 0px 0px 0px 0;
+  transform: rotate(45deg);
+  top: 110px;
+  left: 750px;
+  background: linear-gradient(#f9c5c8, indianred 10%, indianred 100%);
+z-index: 1;
+    }
+
+    .emannuel-love {
+      position: relative;
+      top: -200px;
+      left: 164px;
+      height: 260px;
+      width: 200px;
+      background-color:red;
+      border-radius: 200px 200px 0 0;
+      transform: rotate(55deg);
+      z-index: 1;
+      border-right: 1px solid crimson;
+    }
+
+    .emannuel {
+      position: relative;
+      top: -460px;
+      left: 65px;
+      height: 260px;
+      width: 200px;
+      background-color: red;
+      border-radius: 200px 200px 0 0;
+      transform: rotate(-55deg);
+      z-index: 1;
+      border-left: 1px solid crimson;
+    }
+
+    .feliz {
+      position: relative;
+      z-index: 1111;
+      text-align: center;
+      top: -30px;
+font-size: 20px;
+font-weight: bold;
+    }
+
+
+
+.btn-div {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
